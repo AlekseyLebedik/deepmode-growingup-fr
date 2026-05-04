@@ -1,0 +1,17 @@
+.stick {
+  background-color: rgb(76, 239, 149);
+  width: 5px;
+  border-radius: 3px 3px 0px 0px;
+  height: 100%;
+  &--small {
+    height: 40%;
+  }
+}
+
+.flex_cnt {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+}

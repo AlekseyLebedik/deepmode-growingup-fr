@@ -1,0 +1,13 @@
+.display {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: clamp(0.9rem, 2.5vw, 1.4rem);
+  user-select: none;
+  border-radius: 5px;
+  padding: 0px 10px;
+  &--bold {
+    font-weight: bold;
+  }
+}
