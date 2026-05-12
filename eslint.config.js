@@ -18,7 +18,7 @@ export default defineConfig([
       globals: {
         __dirname: "readonly",
         process: "readonly",
-        browser: globals.browser,
+        ...globals.browser,
       },
       parserOptions: {
         ecmaVersion: "latest",
