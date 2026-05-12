@@ -16,7 +16,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vitest/globals", "vite/client"],
+    "types": ["vitest/globals", "@testing-library/jest-dom"],
     "paths": {
       "@/*": ["*"],
       "@shared/*": ["shared/*"],
@@ -24,7 +24,7 @@
       "@api/*": ["api/*"],
       "@widgets/*": ["widgets/*"],
       "@entities/*": ["entities/*"]
-    },
+    }
   },
   "include": ["src"],
   "exclude": ["node_modules"]

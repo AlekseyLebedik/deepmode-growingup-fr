@@ -1,5 +1,7 @@
 import { Stick } from "@/shared/ui/stick";
 import { Display } from "@/shared/ui/display";
+import { ColorPicker } from "@/shared/ui/colorpicker";
+import { SemiCirclePicker } from "@/shared/ui/colorpicker/presentation";
 
 import "./Products.scss";
 
@@ -8,11 +10,7 @@ export default function Products() {
     <div className="product-cnt">
       Products ...
       <div id="cnt">
-        <Display durationTime={200} />
-        <Stick is_active={true} height={10} />
-        <Stick is_active={true} height={20} />
-        <Stick is_active={true} height={500} />
-        <Stick is_active={true} height={10} />
+        <ColorPicker />
       </div>
     </div>
   );
