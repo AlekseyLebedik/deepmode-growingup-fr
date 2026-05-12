@@ -1,4 +1,4 @@
-import { HSVType, RGBType } from "./types";
+import type { HSVType, RGBType } from "./types";
 
 function hsvToRgb({ hue, saturation, value }: HSVType): RGBType {
   const i = Math.floor(hue * 6);

@@ -1,29 +1,27 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "baseUrl": "./src",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "nodenext",
+    "module": "nodenext",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
     "types": ["vitest/globals", "vite/client"],
     "paths": {
-      "@/*": ["*"],
-      "@shared/*": ["shared/*"],
-      "@features/*": ["features/*"],
-      "@api/*": ["api/*"],
-      "@widgets/*": ["widgets/*"],
-      "@entities/*": ["entities/*"]
+      "@/*": ["./src/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@features/*": ["./src/features/*"],
+      "@api/*": ["./src/api/*"],
+      "@widgets/*": ["./src/widgets/*"],
+      "@entities/*": ["./src/entities/*"]
     }
   },
   "include": ["src"],
