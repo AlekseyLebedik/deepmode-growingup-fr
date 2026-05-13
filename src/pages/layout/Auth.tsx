@@ -1,6 +1,8 @@
 import { Outlet } from "react-router";
-import "./Auth.scss";
+
 import Paper from "@mui/material/Paper";
+
+import "./auth.scss";
 
 export default function Layout() {
   return (
