@@ -1,9 +1,9 @@
 import { Stick } from "@/shared/ui/stick";
 import { Display } from "@/shared/ui/display";
 
-import "./Products.scss";
+import "./products.scss";
 
-export default function Products() {
+export function ProductsPage() {
   return (
     <div className="product-cnt">
       Products ...
